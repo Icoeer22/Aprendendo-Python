@@ -1,0 +1,5 @@
+n = str(input("Digite uma frase:")).upper()
+b = n.count('A')
+print(f"Tem {b} a")
+print(f"O primeiro a esta na posição {n.find('A')+1}" )
+print(f"O ultimo a esta na posição {n.rfind('A')+1}")

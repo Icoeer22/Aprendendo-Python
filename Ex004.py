@@ -1,0 +1,8 @@
+a = input("Digite qualquer coisa:")
+print(f"Ele é um número: {a.isnumeric()}")
+print(f"Ele é um texto: {a.isalpha()}")
+print(f"Ele é um texto/numero: {a.isalnum()}")
+print(f"Ele está em letra maiuscula: {a.isupper() }")
+print(f"Ele so tem espacos: {a.isspace()}")
+print(f"Ele é tipo: {type(a)}")
+print(f"Ele esta em minusculas: {a.islower()}")
