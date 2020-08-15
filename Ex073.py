@@ -1,0 +1,8 @@
+lista = ("Athletico-PR","Internacional","Atlético-MG","Grêmio","Atlético-GO","Vasco da Gama","Bahia","São Paulo","Sport Recife",'Bragantino-SP',"Botafogo","Palmeiras","Ceará SC","Fluminense","Santos","Corinthians","Goiás","Coritiba","Fortaleza","Flamengo")
+print(60*"=")
+print(f"Analise da Tabela do Brasileirão 2020".center(60))
+print(60*"=")
+print(f"Os cinco primeiros da tabéla do Brasileirão 2020 são: {lista[0:5]}")
+print(F"Os times em orgem alfabética são: {sorted(lista)}")
+print(f"O Corinthians está na posição: {lista.index('Corinthians')+1}")
+print(60*"=")
