@@ -1,6 +1,6 @@
 def leiaInt(msg):
     ok = False
-    valor = 0
+    p = 0
     while True:
         n = str(input(msg))
         if n.isnumeric():
