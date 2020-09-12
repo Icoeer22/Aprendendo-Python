@@ -1,4 +1,5 @@
 import pandas as pd
+
 def linha():
     print(40*"-")
 
@@ -21,3 +22,7 @@ linha()
 print(alunosDF.loc[alunosDF["Aprovado"]=="Sim"])
 linha()
 print(dados["Nome"].value_counts())
+linha()
+alunosDF.drop("Nome", axis = 1 , inplace = True)
+print(alunosDF)
+linha()
