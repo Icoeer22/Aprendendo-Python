@@ -23,3 +23,9 @@ peso = feminino["Weight"]
 ida = feminino["Age"]
 plt.scatter(tam,peso,ida)
 plt.show()
+
+dados["Medal"].fillna("Nenhuma",inplace = True)
+dados["Age"].fillna(dados["Age"].mean(),inplace = True)
+dados["Height"].fillna(dados["Height"].mean(),inplace=True)
+dados["Weight"].fillna(dados["Weight"].mean(), inplace=True)
+print(dados.head)
